@@ -1,4 +1,3 @@
-import time 
 menu = "pizza,burger,sandwich,coke,all"
 name = "ayan"
 print("wellcome to tekro eat.\n")
@@ -10,7 +9,6 @@ print("\n\nhello "+ name + " here's our menu...\n\n"
 +"4.coke\n"
 +"5.all")
 order = input("so what do you want?\n\n")
-time.sleep(1)
 print("\n\nAlright, your " + order + " will be ready just in a momment.\n")
 mini = 12
 mex = 40
